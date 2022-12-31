@@ -10,7 +10,7 @@ bold = '*'
 
 
 def genstats():
-    r = requests.get(url + '?summary').json()
+    r = requests.get(url + '?summary' + '&auth=' + WEBPASSWORD).json()
     domains_blocked = r['domains_being_blocked']
     dns_queries = r['dns_queries_today']
     ads_blocked = r['ads_blocked_today']
