@@ -25,7 +25,7 @@ Customizing Config.py
 
 Run script:
 ```bash
-python3 pihole2telegram.py &
+python3 pihole2telegram.py
 ```
 
 ### Usage
