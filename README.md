@@ -20,7 +20,9 @@ pip3 install -r requirements.txt
 
 ###### Install with Docker
 Importing the Dockerfile
+
 Customizing Config.py
+
 Run script:
 ```bash
 python3 pihole2telegram.py &
