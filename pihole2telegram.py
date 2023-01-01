@@ -6,10 +6,10 @@ from parse import genstats, top_it, check_status
 import time
 from kb import *
 
-#import logging
+import logging
 
-#logging.basicConfig(level=logging.DEBUG,
-#                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 bold = '*'
 updater = Updater(token=config.token)
