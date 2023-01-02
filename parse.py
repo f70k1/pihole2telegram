@@ -61,7 +61,7 @@ def top_it(tops, *args):
 
 def check_status(status):
     if status == 'status':
-        r = requests.get(url).json()
+        r = requests.get(url + '?' + status + '&auth=' + WEBPASSWORD).json()
         cstatus = r['status']
         if cstatus == 'enabled':
             message = str(str(cstatus) + " ✅")
