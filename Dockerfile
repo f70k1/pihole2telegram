@@ -14,4 +14,4 @@ RUN git clone https://github.com/f70k1/pihole2telegram.git
 
 WORKDIR /pihole2telegram
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirements.txt  --no-cache-dir  
