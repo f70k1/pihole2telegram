@@ -83,7 +83,7 @@ def button(bot, update):
                             chat_id=query.message.chat_id,
                             message_id=query.message.message_id,
                             reply_markup=reply_markup2,
-                            parse_mode='Markdown'
+                            #parse_mode='Markdown'
                             )
 
     if query.data == '6':
